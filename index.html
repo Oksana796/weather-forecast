@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/2236a6e25f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Enter city"
+          autocomplete="off"
+          id="input-city"
+        />
+        <button id="search-butt">Search</button>
+        <button id="current-butt">Current</button>
+      </form>
+      <h1 id="location">London</h1>
+      <div class="weather-image">
+        <img
+          src="http://openweathermap.org/img/wn/02d@2x.png"
+          alt="few clouds"
+          id="icon"
+        />
+      </div>
+
+      <div class="links-group">
+        <span class="temperature" id="temperature">16</span>
+        <span class="units">
+          <a href="#" id="celsius-link" class="active">°C</a> |
+          <a href="#" id="fahrenheit-link">°F</a>
+        </span>
+      </div>
+
+      <div class="row">
+        <div class="col-6" id="now-time">Friday 20:15</div>
+        <div class="col-6">Humidity: <span id="humidity">82%</span></div>
+      </div>
+      <div class="row">
+        <div class="col-6" id="description">Clouds</div>
+        <div class="col-6">Wind: <span id="wind">2 km/h</span></div>
+      </div>
+      <br />
+
+      <div class="weather-forecast" id="forecast"></div>
+    </div>
+    <footer>
+      <div>
+        <small>
+          <a href="https://github.com/Oksana796/weather-app" target="_blank">
+            Open-source code</a
+          >
+          by Oksana Haydeychuk</small
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
