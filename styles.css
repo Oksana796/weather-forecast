@@ -11,10 +11,11 @@ body {
   background-color: #c8c4fd;
   border-radius: 8px;
   border: 1px solid #dadde1;
-  padding: 16px;
+  padding-right: 24px;
+  padding-left: 40px;
   margin: 30px auto;
-  height: 90vh;
 }
+
 #temperature {
   font-size: 60px;
 }
@@ -41,7 +42,7 @@ a {
 
 form {
   display: block;
-  margin: 50px auto;
+  margin: 10px auto;
   text-align: center;
 }
 #input-city {
@@ -65,6 +66,7 @@ form {
   border-radius: 6px;
   padding: 5px 10px;
   margin-left: 10px;
+  margin-top: 5px;
   border: 1px solid #c2c2c3;
 }
 
@@ -76,13 +78,13 @@ h1 {
 
 footer {
   text-align: center;
-  margin-top: 80px;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .footer small {
   font-size: 12px;
 }
+
 #forecast-icon {
   width: 50px;
 }
