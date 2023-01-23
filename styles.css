@@ -12,7 +12,7 @@ body {
   border-radius: 8px;
   border: 1px solid #dadde1;
   margin: 0 auto;
-  padding: 20px 24px 10px 40px;
+  padding: 20px;
   height: 80%;
 }
 
@@ -57,6 +57,7 @@ form {
   border-radius: 6px;
   padding: 5px 10px;
   margin-left: 10px;
+  margin-top: 5px;
   border: 1px solid #c2c2c3;
 }
 
@@ -72,7 +73,7 @@ form {
 
 h1 {
   display: block;
-  margin: 0 auto;
+  margin-top: 20px;
   font-size: 40px;
 }
 
